@@ -27,11 +27,14 @@ INFO = [
     ("Frontend", "Vue, Nuxt, React"),
     ("Databases", "Postgres, MongoDB, MariaDB, Redis"),
     ("Cloud", "AWS, Azure, GCP, Vercel, OVH"),
-    ("AI", "Claude, ChatGPT, Gemini"),
     None,
     ("Building", "Grafite: engineering provenance (Rust)"),
     ("", "agent-sandbox: rootless AI agent sandboxes"),
-    ("Learning", "RabbitMQ"),
+    None,
+    ("Learning", "DICOM, PACS, MWL-RS, DCM4CHEE, Quarkus"),
+    ("", "Keycloak/OIDC, observability, Podman"),
+    ("", "zero-trust for coding agents, SSH runtimes"),
+    ("", "worktree isolation, deterministic identities"),
     None,
     ("Web", "gustavgomes.com.br"),
     ("Instagram", "@devguga"),
@@ -40,7 +43,7 @@ INFO = [
 W = 700
 PAD = 24
 TITLEBAR_H = 30
-LINE_H = 26
+LINE_H = 22
 KEY_W = 118
 
 BG, BG2 = "#0d1117", "#111722"
