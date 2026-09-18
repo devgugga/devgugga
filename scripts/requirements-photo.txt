@@ -1,0 +1,5 @@
+# only needed locally, to regenerate the ascii portrait (not used by CI)
+pillow
+numpy
+opencv-python-headless
+rembg[cpu]
