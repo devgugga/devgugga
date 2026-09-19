@@ -8,7 +8,7 @@ The page is three self-generated, animated SVGs composed in `README.md`. No thir
 | --- | --- | --- |
 | `portrait-ascii.svg` | `scripts/prep_photo.py` → `scripts/make_ascii_svg.py` | hand, only when the photo changes |
 | `info-card.svg` | `scripts/make_info_card.py` (content lives in its `INFO` list) | hand, whenever the card text changes |
-| `contrib-heatmap.svg` | `scripts/fetch_contributions.py` → `scripts/render_heatmap_svg.py` | CI daily (`.github/workflows/update-profile-art.yml`) |
+| `contrib-heatmap.svg` | `scripts/fetch_contributions.py` → `scripts/render_heatmap_svg.py` | CI every 6 hours (`.github/workflows/update-profile-art.yml`) |
 
 ## Setup
 

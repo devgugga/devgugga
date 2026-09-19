@@ -4,7 +4,7 @@ Scrape daily contribution counts from GitHub's public contributions fragment
 (the same HTML the profile page loads) and write data/contributions.json with
 the raw days plus derived stats. No token needed.
 
-Run daily by .github/workflows/update-profile-art.yml.
+Run every 6 hours by .github/workflows/update-profile-art.yml.
 """
 import datetime
 import json
