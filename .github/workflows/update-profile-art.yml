@@ -7,10 +7,16 @@ name: Update profile art
     branches: [main]
 permissions:
   contents: write
+  actions: write
 jobs:
   heatmap:
     runs-on: ubuntu-latest
     steps:
+      # Re-enable ourselves every run: GitHub disables scheduled workflows in
+      # public repos after 60 days without repository activity.
+      - run: gh api -X PUT "repos/${{ github.repository }}/actions/workflows/update-profile-art.yml/enable"
+        env:
+          GH_TOKEN: ${{ github.token }}
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
