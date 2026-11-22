@@ -1,12 +1,12 @@
 {
   "username": "devgugga",
-  "generated_at": "2026-11-21T19:12:51Z",
+  "generated_at": "2026-11-22T06:43:25Z",
   "range": {
-    "start": "2025-11-16",
-    "end": "2026-11-21"
+    "start": "2025-11-23",
+    "end": "2026-11-22"
   },
-  "total_contributions": 6107,
-  "active_days": 195,
+  "total_contributions": 6078,
+  "active_days": 190,
   "current_streak": 67,
   "longest_streak": 67,
   "best_day": {
@@ -14,34 +14,6 @@
     "count": 266
   },
   "days": [
-    {
-      "date": "2025-11-16",
-      "count": 10
-    },
-    {
-      "date": "2025-11-17",
-      "count": 15
-    },
-    {
-      "date": "2025-11-18",
-      "count": 5
-    },
-    {
-      "date": "2025-11-19",
-      "count": 14
-    },
-    {
-      "date": "2025-11-20",
-      "count": 0
-    },
-    {
-      "date": "2025-11-21",
-      "count": 0
-    },
-    {
-      "date": "2025-11-22",
-      "count": 1
-    },
     {
       "date": "2025-11-23",
       "count": 0
@@ -1496,7 +1468,11 @@
     },
     {
       "date": "2026-11-21",
-      "count": 4
+      "count": 20
+    },
+    {
+      "date": "2026-11-22",
+      "count": 0
     }
   ]
 }
